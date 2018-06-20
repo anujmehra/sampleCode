@@ -1,4 +1,4 @@
-package com.aeromexico.analytics.job.model;
+package com.am.analytics.job.model;
 
 /**
  * The Class BasicColumnField is responsible to implementation basic behavior
@@ -38,7 +38,7 @@ public class BasicColumnField implements ColumnField {
     }
 
     /* (non-Javadoc)
-     * @see com.aeromexico.analytics.job.model.ColumnField#getFieldName()
+     * @see com.am.analytics.job.model.ColumnField#getFieldName()
      */
     public String getFieldName() {
 
@@ -46,7 +46,7 @@ public class BasicColumnField implements ColumnField {
     }
 
     /* (non-Javadoc)
-     * @see com.aeromexico.analytics.job.model.ColumnField#getColumnName()
+     * @see com.am.analytics.job.model.ColumnField#getColumnName()
      */
     public String getColumnName() {
 

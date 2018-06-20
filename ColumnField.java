@@ -1,4 +1,4 @@
-package com.aeromexico.analytics.job.model;
+package com.am.analytics.job.model;
 
 import java.io.Serializable;
 

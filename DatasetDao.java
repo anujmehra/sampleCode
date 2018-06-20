@@ -1,7 +1,4 @@
-/*
- * 
- */
-package com.aeromexico.analytics.job.dataaccess.dao;
+package com.am.analytics.job.dataaccess.dao;
 
 import java.io.Serializable;
 import java.util.function.BiFunction;
@@ -12,16 +9,16 @@ import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.types.StructType;
 
-import com.aeromexico.analytics.common.core.utils.Pair;
-import com.aeromexico.analytics.common.core.utils.Schema;
-import com.aeromexico.analytics.job.common.model.ExistingRow;
-import com.aeromexico.analytics.job.common.model.NewRow;
-import com.aeromexico.analytics.job.common.model.RowMerger;
-import com.aeromexico.analytics.job.dataaccess.exception.JobDaoException;
-import com.aeromexico.analytics.job.model.BasicColumnField;
-import com.aeromexico.analytics.job.model.ColumnField;
-import com.aeromexico.analytics.job.model.HBaseColumnField;
-import com.aeromexico.analytics.job.model.TableFieldMapping;
+import com.am.analytics.common.core.utils.Pair;
+import com.am.analytics.common.core.utils.Schema;
+import com.am.analytics.job.common.model.ExistingRow;
+import com.am.analytics.job.common.model.NewRow;
+import com.am.analytics.job.common.model.RowMerger;
+import com.am.analytics.job.dataaccess.exception.JobDaoException;
+import com.am.analytics.job.model.BasicColumnField;
+import com.am.analytics.job.model.ColumnField;
+import com.am.analytics.job.model.HBaseColumnField;
+import com.am.analytics.job.model.TableFieldMapping;
 
 /**
  * The purpose of this class is to perform CRUD operations on a data repository using Spark Dataset and RDD API.
@@ -31,7 +28,7 @@ import com.aeromexico.analytics.job.model.TableFieldMapping;
  * <li>Data can be huge to not to fit into memory</li>
  * </ul>
  * 
- * @author Aeromexico
+ * @author am
  * @param <T> implementation of ColumnField which can be specific to a data repository. It is the meta data to reach to a column in
  *            the specific repository.
  * @see BasicColumnField

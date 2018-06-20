@@ -61,7 +61,7 @@ public class HBaseDaoImpl implements JobsDao<Result, Put> {
 
     /*
      * (non-Javadoc)
-     * @see com.aeromexico.analytics.job.dataaccess.dao.JobsDao#getDataRecord(java.lang.String, java.lang.String)
+     * @see com.am.analytics.job.dataaccess.dao.JobsDao#getDataRecord(java.lang.String, java.lang.String)
      */
     @Override
     public Result getDataRecord(final String tableName, final String key) throws Exception {
@@ -73,7 +73,7 @@ public class HBaseDaoImpl implements JobsDao<Result, Put> {
 
     /*
      * (non-Javadoc)
-     * @see com.aeromexico.analytics.job.dataaccess.dao.JobsDao#getDataRecord(java.lang.String, java.lang.String, boolean)
+     * @see com.am.analytics.job.dataaccess.dao.JobsDao#getDataRecord(java.lang.String, java.lang.String, boolean)
      */
     public Result getDataRecord(final String tableName, final String key, final boolean generateHash) throws Exception {
 
@@ -83,7 +83,7 @@ public class HBaseDaoImpl implements JobsDao<Result, Put> {
 
     /*
      * (non-Javadoc)
-     * @see com.aeromexico.analytics.job.dataaccess.dao.JobsDao#create(java.lang.String, int, java.lang.String[])
+     * @see com.am.analytics.job.dataaccess.dao.JobsDao#create(java.lang.String, int, java.lang.String[])
      */
     @Override
     public void create(final String tableName, final int totalSplits, final String... columnFamilies) throws Exception {
@@ -115,7 +115,7 @@ public class HBaseDaoImpl implements JobsDao<Result, Put> {
     
     /*
      * (non-Javadoc)
-     * @see com.aeromexico.analytics.job.dataaccess.dao.JobsDao#deleteTable(java.lang.String)
+     * @see com.am.analytics.job.dataaccess.dao.JobsDao#deleteTable(java.lang.String)
      */
     @Override
     public void deleteTable(final String tableName) throws Exception {
@@ -132,7 +132,7 @@ public class HBaseDaoImpl implements JobsDao<Result, Put> {
 
     /*
      * (non-Javadoc)
-     * @see com.aeromexico.analytics.job.dataaccess.dao.JobsDao#getDataRecord(java.lang.String, java.lang.String, java.lang.String,
+     * @see com.am.analytics.job.dataaccess.dao.JobsDao#getDataRecord(java.lang.String, java.lang.String, java.lang.String,
      * java.lang.String[])
      */
     @Override
@@ -169,7 +169,7 @@ public class HBaseDaoImpl implements JobsDao<Result, Put> {
 
     /*
      * (non-Javadoc)
-     * @see com.aeromexico.analytics.job.dataaccess.dao.JobsDao#getDataRecord(java.lang.String, java.lang.String, java.lang.String,
+     * @see com.am.analytics.job.dataaccess.dao.JobsDao#getDataRecord(java.lang.String, java.lang.String, java.lang.String,
      * boolean)
      */
     public Result getDataRecord(final String tableName,
@@ -244,7 +244,7 @@ public class HBaseDaoImpl implements JobsDao<Result, Put> {
 
     /*
      * (non-Javadoc)
-     * @see com.aeromexico.analytics.job.dataaccess.dao.JobsDao#save(java.lang.String, java.lang.Object)
+     * @see com.am.analytics.job.dataaccess.dao.JobsDao#save(java.lang.String, java.lang.Object)
      */
     @Override
     public void save(final String tableName, final Put objectToSave) throws Exception {
@@ -272,7 +272,7 @@ public class HBaseDaoImpl implements JobsDao<Result, Put> {
      */
     /*
      * (non-Javadoc)
-     * @see com.aeromexico.analytics.job.dataaccess.dao.JobsDao#getDataRecords(java.lang.String, java.util.List, boolean)
+     * @see com.am.analytics.job.dataaccess.dao.JobsDao#getDataRecords(java.lang.String, java.util.List, boolean)
      */
     public List<Result> getDataRecords(final String tableName,
                                        final List<String> keys,
@@ -283,7 +283,7 @@ public class HBaseDaoImpl implements JobsDao<Result, Put> {
 
     /*
      * (non-Javadoc)
-     * @see com.aeromexico.analytics.job.dataaccess.dao.JobsDao#getDataRecords(java.lang.String, java.lang.String, java.util.List)
+     * @see com.am.analytics.job.dataaccess.dao.JobsDao#getDataRecords(java.lang.String, java.lang.String, java.util.List)
      */
     @Override
     public List<Result> getDataRecords(final String tableName,
@@ -322,7 +322,7 @@ public class HBaseDaoImpl implements JobsDao<Result, Put> {
 
     /*
      * (non-Javadoc)
-     * @see com.aeromexico.analytics.job.dataaccess.dao.JobsDao#getDataRecords(java.lang.String, java.lang.String, java.util.List,
+     * @see com.am.analytics.job.dataaccess.dao.JobsDao#getDataRecords(java.lang.String, java.lang.String, java.util.List,
      * boolean)
      */
     public List<Result> getDataRecords(final String tableName,
@@ -343,7 +343,7 @@ public class HBaseDaoImpl implements JobsDao<Result, Put> {
     }
 
     /* (non-Javadoc)
-     * @see com.aeromexico.analytics.job.dataaccess.dao.JobsDao#backupTable(java.lang.String, java.lang.String)
+     * @see com.am.analytics.job.dataaccess.dao.JobsDao#backupTable(java.lang.String, java.lang.String)
      */
     @Override
     public void backupTable(String tableName, String backupTableName) throws Exception {

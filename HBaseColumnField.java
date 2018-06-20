@@ -1,4 +1,4 @@
-package com.aeromexico.analytics.job.model;
+am com.aeromexico.analytics.job.model;
 
 /**
  * The Class HBaseColumnField is responsible for fields in HBase.
