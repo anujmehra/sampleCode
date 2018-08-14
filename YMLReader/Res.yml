@@ -1,0 +1,72 @@
+database_metadata:       
+                name: PNR
+                table:
+                  name: RES
+                  columnPrefix: RES_
+                  column:
+                                  - name: RecordIndicator
+                                    type: STRING
+                                  - name: PNRLocatorId
+                                    type: STRING
+                                  - name: PNRCreateDate
+                                    type: YYYY_MM_DD_HH_MM_SS
+                                  - name: FromDateTime
+                                    type: YYYY_MM_DD_HH_MM_SS
+                                  - name: CreateAAACityCode
+                                    type: STRING
+                                  - name: CreationCountryCode
+                                    type: String
+                                  - name: GrpBookingInd
+                                    type: STRING
+                                  - name: CorporateInd
+                                    type: STRING
+                                  - name: NbrinParty
+                                    type: INTEGER
+                                  - name: TTYAirlineCode
+                                    type: STRING
+                                  - name: TTYRecordLocator
+                                    type: STRING
+                                  - name: TTYPosInformation
+                                    type: STRING
+                                  - name: SeatCount
+                                    type: INTEGER
+                                  - name: SourceSystemId
+                                    type: STRING
+                                  - name: PNRCreateTime
+                                    type: YYYY_MM_DD_HH_MM_SS
+                                  - name: CreateAgentSine 
+                                    type: STRING
+                                  - name: NumberOfInfants
+                                    type: INTEGER
+                                  - name: ClaimIndicator
+                                    type: STRING
+                                  - name: CreateIATANr
+                                    type: STRING
+                                  - name: PurgeDate
+                                    type: YYYY_MM_DD_HH_MM_SS
+                                  - name: MaxIntraPNRSetNbr
+                                    type: INTEGER
+                                  - name: DivideOrigPNRLocatorID
+                                    type: STRING
+                                  - name: OrigPNRCreateDate
+                                    type: YYYY_MM_DD_HH_MM_SS
+                                  - name: OrigPNRCreateTime
+                                    type: YYYY_MM_DD_HH_MM_SS
+                                  - name: DivideImagePNRInd
+                                    type: STRING
+                                  - name: CreateAAAOACCityCode
+                                    type: STRING
+                                  - name: CreateAAAOACAcctCode
+                                    type: STRING
+                                  - name: OACDefaultPartitionCode
+                                    type: STRING
+                                  - name: OACCityCode
+                                    type: STRING
+                                  - name: OACAcctCode
+                                    type: STRING
+                                  - name: OACStationCode
+                                    type: STRING
+                                  - name: Fecha_Carga
+                                    type: TIMESTAMP
+                                  - name: Postfijo
+                                    type: String
